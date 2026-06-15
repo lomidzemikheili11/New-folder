@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    background: none;
+    text-decoration: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+body{
+    background-color: #FFECE1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 240px;
+}
+
+main {
+    background-color: white;
+    width: 1440px;
+    height: 3546px;
+}
+
+header{
+    background-color: #262626;
+    display: flex;
+    height: 155px;
+    width: 1440px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+}
+
+header H1 {
+    color: white;
+}
+
+.div1{
+    display: flex;
+}
+
+.divindiv {
+    display: flex;
+    flex-direction: column;
+    width: 676px;
+    height: 545px;
+    margin-left: 59px;
+    margin-top: 20px;
+    gap: 40px;
+}
+
+.divindiv h1 {
+    font-size: 60px;
+    width: 676px;
+    height: 82px;
+}
+
+.divindiv p {
+    font-size: 24px;
+    width: 675.59px;
+    height: 99px;
+}
+
+.divindiv h2 {
+    font-size: 36px;
+}
+
+.form input {
+    border: 1px solid black;
+    width: 674px;
+    height: 60px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form input::placeholder {
+    font-size: 24px;
+    padding-left: 15px;
+    color: #262626;
+}
+
+.form button{
+    color: white;
+    background-color: black;
+    width: 185px;
+    height: 53px;
+    font-size: 24px;
+    padding-left: 0px;
+}
+
+.button {
+    width: 674px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.About{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin: 100px;
+}
+
+.About h1 {
+    font-size:60px;
+}
+
+.text {
+    display: flex;
+    gap:20px;
+}
+
+.text p {
+    font-size: 24px;
+}
+
+
+
+
+
+.product {
+    width: 1440px;
+    height: 1559px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.product h1{
+    font-size: 60px;
+}
+
+.product h2{
+    font-size: 32px;
+}
+
+.product p{
+    font-size: 24px;
+}
+
+.product1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #262626;
+    height: 513px;
+}
+
+.product2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #262626;
+    height: 513px;
+
+}
+
+.product3 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #262626;
+    height: 513px;
+}
+
+.product1div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 428px;
+    height: 331px;
+    margin: 61px;
+}
+
+.product2div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 428px;
+    height: 331px;
+    margin: 61px;
+}
+
+.product3div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 428px;
+    height: 331px;
+    margin: 61px;
+}
