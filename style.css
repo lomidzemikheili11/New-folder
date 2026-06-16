@@ -74,7 +74,7 @@ header H1 {
 }
 
 .form input {
-    border: 1px solid black;
+    border: 2px solid grey;
     width: 674px;
     height: 60px;
 }
@@ -167,6 +167,10 @@ header H1 {
     height: 513px;
 }
 
+.product img{
+    height: 514px;
+}
+
 .product2 {
     display: flex;
     justify-content: space-between;
@@ -207,4 +211,58 @@ header H1 {
     width: 428px;
     height: 331px;
     margin: 61px;
+}
+
+
+
+.access {
+    display: flex;
+    margin: 100px;
+    gap: 30px;
+}
+
+.access h1 {
+    font-size: 60px;
+}
+
+.access p {
+    font-size: 24px;
+}
+
+.access h2 {
+    font-size: 36px;
+}
+
+.accessdiv{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    width: 1240px;
+    height: 55px;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 165px;
+    height: 55px;
+}
+
+.footer1 a {
+    width: 50px;
+    height: 50px;
+    filter: brightness(0);
+}
+
+.footer2 {
+    display: flex;
+    gap: 30px;
 }
